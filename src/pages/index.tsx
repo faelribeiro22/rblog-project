@@ -1,5 +1,6 @@
-import Main from 'components/Main'
+import Home from '../templates/Home'
+import bannersMock from 'components/BannerSlider/mock'
 
-export default function Home() {
-  return <Main />
+export default function Index() {
+  return <Home banners={bannersMock} />
 }
