@@ -36,5 +36,9 @@ export const Wrapper = styled.div<LogoProps>`
     ${!!size && wrapperModifiers[size]}
 
     ${!!hideOnMobile && wrapperModifiers.hideOnMobile}
+
+    img {
+      width: inherit;
+    }
   `}
 `

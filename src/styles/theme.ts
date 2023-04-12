@@ -23,8 +23,8 @@ export default {
     }
   },
   colors: {
-    primary: '#F231A5',
-    secondary: '#3CD3C1',
+    primary: '#1A2249',
+    secondary: '#3C8CD3',
     mainBg: '#06092B',
     lightBg: '#F2F2F2',
     white: '#FAFAFA',

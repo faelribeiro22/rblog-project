@@ -2,8 +2,8 @@ const mock = [
   {
     img: '/img/banner/contatoAdmin.jpeg',
     title: 'RBLog Administrativo',
-    subtitle: '<p>Play the new <strong>CrashLands</strong> season',
-    buttonLabel: 'Buy now',
+    subtitle: '<p>Entre em contato para receber um orçamento personalizado</p>',
+    buttonLabel: 'Entre em contato',
     buttonLink: '/games/defy-death'
   },
   {

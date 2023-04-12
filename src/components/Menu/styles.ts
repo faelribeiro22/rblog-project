@@ -23,6 +23,7 @@ export const LogoWrapper = styled.div`
   ${media.lessThan('medium')`
     position: absolute;
     left: 50%;
+    top: 45%;
     transform: translateX(-50%);
   `}
 `
@@ -103,7 +104,7 @@ export const MenuFull = styled.nav<MenuFullProps>`
     pointer-events: ${isOpen ? 'all' : 'none'};
     visibility: ${isOpen ? 'visible' : 'hidden'};
 
-    > svg {
+    > img {
       position: absolute;
       top: 0;
       right: 0;

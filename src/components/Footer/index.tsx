@@ -22,7 +22,7 @@ const Footer = () => (
 
         <nav aria-labelledby="social media">
           <Link
-            href="https://www.instagram.com/won-games"
+            href="https://www.instagram.com/rblogtransporteseencomendas"
             target="_blank"
             rel="noopenner, noreferrer"
           >
