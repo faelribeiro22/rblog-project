@@ -52,7 +52,7 @@ export const MenuNav = styled.div`
 export const MenuLink = styled.a`
   ${({ theme }) => css`
     position: relative;
-    color: ${theme.colors.white};
+    color: ${theme.colors.black};
     font-size: ${theme.font.sizes.medium};
     margin: 0.3rem ${theme.spacings.small} 0;
     text-decoration: none;
@@ -90,7 +90,7 @@ export const MenuFull = styled.nav<MenuFullProps>`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: ${theme.colors.white};
+    background: #dddefd;
     position: fixed;
     z-index: ${theme.layers.menu};
     top: 0;
