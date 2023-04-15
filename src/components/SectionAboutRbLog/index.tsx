@@ -1,15 +1,15 @@
 import React from 'react'
 
 import Heading from '../Heading'
-import { Container } from '../Container'
 
 import * as S from './styles'
+import Image from 'next/image'
 
 const SectionAboutRBLog = () => (
   <S.Wrapper>
     <S.Container>
       <S.Image>
-        <img
+        <Image
           src={'/img/missao.jpg'}
           loading="lazy"
           alt="Pessoa segurando caixa com principais objetivos da RBLog"
