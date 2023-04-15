@@ -63,7 +63,7 @@ export const Wrapper = styled.button<WrapperProps>`
     &:hover {
       background: ${minimal
         ? 'none'
-        : `linear-gradient(180deg, #3b3ee8 0%, #3C8CD3 50%)`};
+        : `linear-gradient(180deg, #263FB5 0%, #3b3ee8 50%)`};
     }
 
     ${!!size && wrapperModifiers[size](theme)};

@@ -1,8 +1,11 @@
+import TextContent from 'components/TextContent'
 import { BannerProps } from '../../components/Banner'
 import BannerSlider from '../../components/BannerSlider'
 import { Container } from '../../components/Container'
 import Base from '../Base'
 import * as S from './styles'
+import mock from './mock'
+import SectionAboutRBLog from 'components/SectionAboutRbLog'
 
 export type HomeTemplateProps = {
   banners: BannerProps[]
@@ -14,6 +17,9 @@ const Home = ({ banners }: HomeTemplateProps) => (
       <S.SectionBanner>
         <BannerSlider items={banners} />
       </S.SectionBanner>
+    </Container>
+    <Container>
+      <SectionAboutRBLog />
     </Container>
   </Base>
 )

@@ -12,7 +12,7 @@ export const Wrapper = styled.menu`
 
 export const IconWrapper = styled.div`
   ${({ theme }) => css`
-    color: ${theme.colors.white};
+    /* color: ${theme.colors.white}; */
     cursor: pointer;
     width: 2.4rem;
     height: 2.4rem;
@@ -104,7 +104,7 @@ export const MenuFull = styled.nav<MenuFullProps>`
     pointer-events: ${isOpen ? 'all' : 'none'};
     visibility: ${isOpen ? 'visible' : 'hidden'};
 
-    > img {
+    > svg {
       position: absolute;
       top: 0;
       right: 0;

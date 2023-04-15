@@ -33,9 +33,11 @@ const Banner = ({
     <S.Caption>
       <S.Title>{title}</S.Title>
       <S.Subtitle dangerouslySetInnerHTML={{ __html: subtitle }} />
-      <Button as="a" href={buttonLink} size="large">
-        {buttonLabel}
-      </Button>
+      {!!buttonLabel ? (
+        <Button as="a" href={buttonLink} size="large">
+          {buttonLabel}
+        </Button>
+      ) : null}
     </S.Caption>
   </S.Wrapper>
 )
